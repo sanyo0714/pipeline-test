@@ -3,7 +3,7 @@ node {
    stage 'Checkout'
 
    // Get some code from a GitHub repository
-    git([url: 'https://github.com/sanyo0714/pipeline-test', branch: 'master'])
+    git([url: 'https://github.com/sanyo0714/pipeline-test', branch: 'develop'])
 
 
 
